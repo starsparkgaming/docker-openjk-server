@@ -1,9 +1,6 @@
 #!/bin/bash
 cd /home/container
 
-export templdpath=./app/linux64
-export LD_LIBRARY_PATH=./linux64:./app/linux64
-
 ## download and install steamcmd
 mkdir /home/container/steamcmd
 curl -SL -o steamcmd.tar.gz "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"

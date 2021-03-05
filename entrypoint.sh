@@ -18,7 +18,6 @@ rm -r /home/container/install
 rm /home/container/openjk.tar.gz
 
 # change directory
-
 cd /home/container/app/GameData
 
 # run the Server

@@ -21,4 +21,4 @@ rm /home/container/openjk.tar.gz
 cd /home/container/app/GameData
 
 # run the Server
-./openjk.x86_64
+./openjkded.x86_64

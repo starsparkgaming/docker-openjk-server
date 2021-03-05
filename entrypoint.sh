@@ -13,7 +13,8 @@ rm /home/container/steamcmd.tar.gz
 # download and install OpenJK
 curl -SL -o openjk.tar.gz "https://builds.openjk.org/openjk-2018-02-26-e3f22070-linux-64.tar.gz"
 tar -xzvf openjk.tar.gz -C "/home/container"
-mv /home/container/install/JediAcademy /home/container/app/GameData
+mv /home/container/install/JediAcademy/* /home/container/app/GameData
+rmdir /home/container/install
 rm /home/container/openjk.tar.gz
 
 # run the Server

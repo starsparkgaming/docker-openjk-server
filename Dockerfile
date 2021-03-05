@@ -9,6 +9,7 @@ RUN         dpkg --add-architecture i386 \
 USER        container
 
 ENV         HOME /home/container
+ENV         ARGS ""
 ENV         STEAM_USERNAME "anonymous"
 ENV         STEAM_PASSWORD ""
 ENV         STEAM_AUTH ""
